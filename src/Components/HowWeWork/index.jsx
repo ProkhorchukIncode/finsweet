@@ -21,13 +21,13 @@ const HowWeWork = () => {
                             <Arrow/>
                         </Link>
                     </div>
-                    <div className='howWeWork-cards__container'>
+                    <ul className='howWeWork-cards__container'>
                         {works.map(({image, title, text})=>{
                             return(
                                 <WorkCard image={image} title={title} text={text} key={image}/>
                             )
                         })}
-                    </div>
+                    </ul>
                 </div>
             </Container>
         </section>
