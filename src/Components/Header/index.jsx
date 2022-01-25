@@ -11,7 +11,7 @@ const routes = ROUTES.PUBLIC_ROUTES;
 
 const Header = () => {
     return(
-        <section className="header-section">
+        <header className="header-section">
             <Container>
                 <div className="header-container">
                     <Link to={routes[0].path}>
@@ -20,7 +20,7 @@ const Header = () => {
                     <NavigationBar/>
                 </div>
             </Container>
-        </section>
+        </header>
     )
 }
 

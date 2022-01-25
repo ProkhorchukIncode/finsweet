@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import Container from '../Container'
+import Arrow from '../Arrow'
 
 import img from '../../Images/Hero/Illustration.svg'
 
@@ -19,7 +20,8 @@ const Hero = () => {
                                 <button className='hero-box__button'>View our work</button>
                             </Link>
                             <Link to='/features' className='hero-box__link'>
-                                View Pricing &#10230;
+                                View Pricing 
+                                <Arrow/>
                             </Link>
                         </div>
                     </div>
