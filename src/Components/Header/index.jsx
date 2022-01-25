@@ -15,7 +15,7 @@ const Header = () => {
             <Container>
                 <div className="header-container">
                     <Link to={routes[0].path}>
-                        <img src={img} alt="{finsweet" width='121,41' height='27,43'/>
+                        <img src={img} alt="{finsweet"/>
                     </Link>
                     <NavigationBar/>
                 </div>

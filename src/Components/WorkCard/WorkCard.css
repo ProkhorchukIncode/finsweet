@@ -1,0 +1,14 @@
+.workCard-box{
+    width: 328px;
+}
+.workCard-image{
+    margin-bottom: 16px;
+}
+.workCard-title{
+    margin-bottom: 8px;
+}
+.workCard-text{
+    display: inline-block;
+    width: 303px;
+    margin-bottom: 48px;
+}

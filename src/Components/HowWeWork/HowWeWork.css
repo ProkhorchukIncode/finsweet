@@ -1,0 +1,34 @@
+.howWeWork-section{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: var(--secondary-background-color);
+}
+.howWeWork-flex{
+    display: flex;
+}
+.howWeWork-info__container{
+    max-width: 405px;
+    margin-right: 142px;
+}
+.howWeWork-info__title{
+    margin-bottom: 16px;
+}
+.howWeWork-info__text{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+
+    opacity: 0.7;
+}
+.howWeWork-info__link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: var(--primary-link-color);
+}
+.howWeWork-cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 656px;
+}
