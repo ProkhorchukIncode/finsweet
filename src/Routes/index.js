@@ -3,7 +3,8 @@ import AboutUs from "../Pages/AboutUs";
 import Features from "../Pages/Features";
 import Pricing from "../Pages/Pricing";
 import FAQ from "../Pages/FAQ";
-import Blog from "../Pages/Blog"
+import Blog from "../Pages/Blog";
+import ContactUs from "../Pages/ContactUs";
 
 const ROUTES = {
     PUBLIC_ROUTES:[
@@ -37,6 +38,14 @@ const ROUTES = {
             path: '/blog',
             component: <Blog/>,
         },
+
+        // important last
+        {
+            name: 'Contact us',
+            path: '/contact-us',
+            component: <ContactUs/>,
+        },
+        //
     ],
 };
 
