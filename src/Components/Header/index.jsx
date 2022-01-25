@@ -4,7 +4,7 @@ import Container from "../Container"
 import NavigationBar from "../NavigationBar"
 
 import "./Header.css"
-import img from '../../Images/Logo-header.svg'
+import img from '../../Images/Logo/Logo-header.svg'
 
 import ROUTES from "../../Routes"
 const routes = ROUTES.PUBLIC_ROUTES;
