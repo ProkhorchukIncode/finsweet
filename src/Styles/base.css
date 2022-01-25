@@ -1,6 +1,37 @@
 a{
     text-decoration: none;
+    color: var(--secondary-text-color);
 }
 img{
     display: block;
+}
+h1{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+}
+h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+h3{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+h4{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 56px;
+}
+h5{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+h6{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
 }
