@@ -1,0 +1,86 @@
+.ourProjects-container{
+    padding: 128px 0;
+
+    background-color: var(--primary-background-color);
+}
+.ourProjects-info{
+    margin-bottom: 64px;
+}
+.ourProjects-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ourProjects__link{
+    color: var(--primary-text-color);
+}
+.ourProjects-workhub__box{
+    position: relative;
+    margin-right: 32px;
+}
+.ourProjects-workhub__image-box{
+    width: 843px;
+    height: 600px;
+    background-image: url('../../Images/OurProjects/WorkHub.jpg');
+}
+.ourProjects-workhub__info-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 396px;
+    height: 100%;
+    padding-left: 48px;
+    padding-right: 35px;
+    padding-bottom: 76px;
+
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.ourProjects-project__title{
+    margin-top: auto;
+    margin-bottom: 16px;
+
+    color: var(--secondary-text-color);
+}
+.ourProjects-workhub__text{
+    display: inline-block;
+    width: 293px;
+    margin-bottom: 40px;
+
+    color: var(--secondary-text-color);
+    opacity: 0.8;
+}
+.ourProjects-unisaas__box{
+    position: relative;
+}
+.ourProjects-unisaas__image-box{
+    width: 414px;
+    height: 284px;
+    margin-bottom: 32px;
+
+    background-image: url('../../Images/OurProjects/Unisaas.jpg');
+}
+.ourProjects-unisaas__info-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 414px;
+    height: 100%;
+    padding-left: 56px;
+    padding-right: 36px;
+    padding-bottom: 83px;
+
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.ourProjects-church__image-box{
+    width: 405px;
+    height: 284px;
+
+    background-image: url('../../Images/OurProjects/Church.jpg');
+}
+.ourProjects-link{
+    color: var(--button-primary-background-color);
+}

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 
 import Container from '../Container'
 import WorkCard from '../WorkCard'
+import Arrow from '../Arrow'
 
 import works from './works'
 
@@ -16,7 +17,8 @@ const HowWeWork = () => {
                         <h2 className='howWeWork-info__title'>How we work</h2>
                         <p className='howWeWork-info__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                         <Link to='/contact-us' className='howWeWork-info__link'>
-                            Get in touch with us &#10230;
+                            Get in touch with us 
+                            <Arrow/>
                         </Link>
                     </div>
                     <div className='howWeWork-cards__container'>
