@@ -1,0 +1,27 @@
+.navigation-container{
+    display: flex;
+    align-items: center;
+}
+.navigation-container :not(:last-child){
+    margin-right: 32px;
+}
+.navigation-container :last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 60px;
+    margin-left: 48px;
+
+    border: 2px solid rgba(244, 246, 252, 0.2);;
+    box-sizing: border-box;
+    border-radius: 41px;
+    color: var(--secondary-text-color);
+}
+.link{
+    display: inline-block;
+    color: var(--secondary-link-color)
+}
+.activeLink{
+    color: var(--secondary-text-color);
+}
