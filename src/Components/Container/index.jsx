@@ -1,3 +1,5 @@
+import './Container.css'
+
 const Container = ({children}) => {
     return(
         <div className="container">
@@ -5,4 +7,5 @@ const Container = ({children}) => {
         </div>
     )
 }
+
 export default Container

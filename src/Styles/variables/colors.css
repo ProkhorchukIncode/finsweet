@@ -1,0 +1,16 @@
+:root{
+    --primary-background-color: #fff;
+    --secondary-background-color: #F4F6FC;
+    --header-and-footer-background-color: #1C1E53;
+
+    --button-primary-background-color: #FCD980;
+    --button-primary-hover-background-color: #FDE4A6;
+    --button-secondary-background-color: #282938;
+    --button-secondary-hover-background-color: #535460;
+
+    --primary-text-color: #282938;
+    --secondary-text-color: #fff;
+
+    --primary-link-color: #2405F2;
+    --secondary-link-color: #BBBBCB;
+}
