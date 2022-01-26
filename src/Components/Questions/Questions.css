@@ -1,0 +1,21 @@
+.questions-section{
+    padding: 128px 0;
+
+    background-color: var(--primary-background-color);
+}
+.questions-flex{
+    display: flex;
+}
+.questions-box-info{
+    width: 328px;
+    margin-right: 109px;
+}
+.questions-box-info__title{
+    margin-bottom: 16px;
+}
+.questions-box-info__link{
+    color: var(--primary-link-color);
+}
+.questions-box-accordeon:not(:last-child){
+    border-bottom: 2px solid #ECECF1;
+}
