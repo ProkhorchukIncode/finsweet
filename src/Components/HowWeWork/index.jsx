@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import Container from '../Container'
 import WorkCard from '../WorkCard'
-import Arrow from '../Arrow'
+import LinkWithArrow from '../LinkWithArrow'
 
 import works from './works'
 
@@ -16,10 +16,9 @@ const HowWeWork = () => {
                     <div className='howWeWork-info__container'>
                         <h2 className='howWeWork-info__title'>How we work</h2>
                         <p className='howWeWork-info__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        <Link to='/contact-us' className='howWeWork-info__link'>
-                            Get in touch with us 
-                            <Arrow/>
-                        </Link>
+                        <LinkWithArrow path={'/contact-us'} className='howWeWork-info__link'>
+                        Get in touch with us
+                        </LinkWithArrow>
                     </div>
                     <ul className='howWeWork-cards__container'>
                         {works.map(({image, title, text})=>{
