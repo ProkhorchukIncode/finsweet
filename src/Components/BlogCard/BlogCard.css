@@ -1,0 +1,19 @@
+.blogCard-box{
+    width: 405px;
+}
+.blogCard-image{
+    margin-bottom: 40px;
+}
+.blogCard-date{
+    margin-bottom: 16px;
+}
+.blogCard-title{
+    margin-bottom: 16px;
+}
+.blogCard-text{
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.blogCard-link{
+    color: var(--primary-text-color);
+}

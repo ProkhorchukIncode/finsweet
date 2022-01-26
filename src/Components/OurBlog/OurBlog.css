@@ -1,0 +1,14 @@
+.ourBlog-section{
+    margin-bottom: 128px;
+
+    background-color: var(--primary-background-color);
+}
+.ourBlog-title{
+    margin-bottom: 64px;
+}
+.ourBlog-flex{
+    display: flex;
+}
+.ourBlog-flex li:not(:last-child){
+    margin-right: 32px;
+}
