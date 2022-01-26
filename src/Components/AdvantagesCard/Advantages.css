@@ -1,0 +1,17 @@
+.advantagesCard-box{
+    box-sizing: border-box;
+    width: 405px;
+    height: 316px;
+    padding-top: 53px;
+    padding-left: 48px;
+    padding-right: 33px;
+    padding-bottom: 48px;
+
+    background-color: var(--primary-background-color);
+}
+.advantagesCard-image{
+    margin-bottom: 25px;
+}
+.advantagesCard-title{
+    margin-bottom: 12px;
+}
