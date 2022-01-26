@@ -1,7 +1,7 @@
-import img1 from '../../Images/HowWeWork/01.jpg'
-import img2 from '../../Images/HowWeWork/02.jpg'
-import img3 from '../../Images/HowWeWork/03.jpg'
-import img4 from '../../Images/HowWeWork/04.jpg'
+import img1 from '../../Images/HowWeWork/01.png'
+import img2 from '../../Images/HowWeWork/02.png'
+import img3 from '../../Images/HowWeWork/03.png'
+import img4 from '../../Images/HowWeWork/04.png'
 
 const works = [
     {

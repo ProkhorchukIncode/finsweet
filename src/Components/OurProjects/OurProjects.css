@@ -21,7 +21,7 @@
 .ourProjects-workhub__image-box{
     width: 843px;
     height: 600px;
-    background-image: url('../../Images/OurProjects/WorkHub.jpg');
+    background-image: url('../../Images/OurProjects/WorkHub.png');
 }
 .ourProjects-workhub__info-box{
     box-sizing: border-box;
@@ -59,7 +59,7 @@
     height: 284px;
     margin-bottom: 32px;
 
-    background-image: url('../../Images/OurProjects/Unisaas.jpg');
+    background-image: url('../../Images/OurProjects/Unisaas.png');
 }
 .ourProjects-unisaas__info-box{
     box-sizing: border-box;
@@ -79,7 +79,7 @@
     width: 405px;
     height: 284px;
 
-    background-image: url('../../Images/OurProjects/Church.jpg');
+    background-image: url('../../Images/OurProjects/Church.png');
 }
 .ourProjects-link{
     color: var(--button-primary-background-color);
