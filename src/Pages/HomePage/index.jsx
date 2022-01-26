@@ -6,6 +6,7 @@ import Questions from "../../Components/Questions"
 import SendInquiry from "../../Components/SendInquiry"
 import OurBlog from "../../Components/OurBlog"
 import Footer from "../../Components/Footer"
+import Copyright from "../../Components/Copyright"
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <SendInquiry/>
             <OurBlog/>
             <Footer/>
+            <Copyright/>
         </>
     )
 }

@@ -10,3 +10,21 @@
     justify-content: space-between;
     align-items: center;
 }
+.header-navigation-box{
+    display: flex;
+}
+.header-navigation-box__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 60px;
+    margin-left: 48px;
+
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    color: var(--secondary-text-color);
+    background-color: inherit;
+}

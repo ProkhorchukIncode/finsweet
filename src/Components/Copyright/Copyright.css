@@ -1,0 +1,20 @@
+.copyright-section{
+    padding: 32px 0;
+}
+.copyright-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--primary-text-color);
+}
+.copyright-title{
+    opacity: 1;
+}
+.copyright-flex a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: var(--primary-text-color);
+}

@@ -7,14 +7,16 @@ import './NavigationBar.css'
 import ROUTES from "../../Routes";
 const routes = ROUTES.PUBLIC_ROUTES;
 
-const NavigationBar = () => {
+const NavigationBar = ({withActive}) => {
     const {pathname} = useLocation();
 
-    const isActiveLink = (path) => {        
-        if(path=== pathname){
-            return 'activeLink'
-        }
-        return 'link'
+    const isActiveLink = (path) => {   
+        if(withActive){
+            if(path=== pathname){
+                return 'activeLink'
+            }
+            return 'link'
+        }     
     }
 
     return(
@@ -26,11 +28,6 @@ const NavigationBar = () => {
                     {name}
                 </Link>)
             })}
-            <Link to={routes[routes.length-1].path}>
-                <RoundButton className={'navigation-button'}>
-                    {routes[routes.length-1].name}
-                </RoundButton>
-            </Link>
         </nav>
     )
 }
