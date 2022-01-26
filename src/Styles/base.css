@@ -47,3 +47,6 @@ p{
 button{
     font-family: Manrope;
 }
+li{
+    display: block;
+}

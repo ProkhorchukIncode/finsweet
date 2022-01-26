@@ -1,6 +1,7 @@
 import Hero from "../../Components/Hero"
 import HowWeWork from "../../Components/HowWeWork"
 import OurProjects from "../../Components/OurProjects"
+import Features from "../../Components/Features"
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Hero/>
             <HowWeWork/>
             <OurProjects/>
+            <Features/>
         </>
     )
 }
