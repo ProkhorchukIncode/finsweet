@@ -19,6 +19,7 @@ const OurBlog = () => {
                                 title={title} 
                                 text={text}
                                 path={path}
+                                key={image}
                             />
                         )
                     })}
