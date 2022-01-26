@@ -5,6 +5,9 @@ a{
     text-decoration: none;
     color: var(--secondary-text-color);
 }
+a:hover, a:focus{
+    text-decoration:underline;
+}
 img{
     display: block;
 }
@@ -39,6 +42,7 @@ h6{
     line-height: 36px;
 }
 p{
+    font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: var(--primary-text-color);
@@ -46,6 +50,7 @@ p{
 }
 button{
     font-family: Manrope;
+    cursor: pointer;
 }
 li{
     display: block;

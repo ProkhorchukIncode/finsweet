@@ -32,15 +32,18 @@
     width: 230px;
     height: 64px;
     margin-right: 40px;
+    border: none;
 
-    background: var(--button-primary-background-color);
-    border-radius: 41px;
+    background-color: var(--button-primary-background-color);
 }
 .hero-box__button:hover,
 .hero-box__button:focus{
     background: var(--button-primary-hover-background-color);
 }
 .hero-box__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;

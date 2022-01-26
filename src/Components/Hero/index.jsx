@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 
 import Container from '../Container'
-import Arrow from '../Arrow'
+import RoundButton from '../RoundButton'
+import LinkWithArrow from '../LinkWithArrow'
 
 import img from '../../Images/Hero/Illustration.svg'
 
@@ -17,12 +18,11 @@ const Hero = () => {
                         <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         <div className='hero-box__links-box'>
                             <Link to='/features'>
-                                <button className='hero-box__button'>View our work</button>
+                                <RoundButton className='hero-box__button'>View our work</RoundButton>
                             </Link>
-                            <Link to='/features' className='hero-box__link'>
-                                View Pricing 
-                                <Arrow/>
-                            </Link>
+                            <LinkWithArrow path='/features' className='hero-box__link'>
+                                View Pricing
+                            </LinkWithArrow>
                         </div>
                     </div>
                     <img src={img} alt="Illustration" />

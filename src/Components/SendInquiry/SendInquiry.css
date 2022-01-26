@@ -1,0 +1,86 @@
+.sendInquiry-section{
+    margin-bottom: 128px;
+
+    color: var(--secondary-text-color);
+    background-color: var(--primary-background-color);
+}
+.sendInquiry-flex{
+    display: flex;
+}
+.sendInquiry-title-box{
+    position: relative;
+}
+.sendInquiry-title-box__image-box{
+    width: 656px;
+    height: 691px;
+    background-image: url('../../Images/woman-writing-on-paper.png');
+}
+.sendInquiry-title-box__info-box{
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 96px;
+
+    background: rgba(28, 30, 83, 0.5);
+}
+.sendInquiry-title-box__info-title{
+    font-size: 54px;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+.sendInquiry-title-box__info-text{
+    color: inherit;
+    opacity: 1;
+}
+.sendInquiry-form-box{
+    padding: 96px 96px 48px 96px;
+    background-color: var(--header-and-footer-background-color);
+}
+.sendInquiry-form-box__title{
+    margin-bottom: 16px;
+}
+.sendInquiry-form-box__text{
+    color: inherit;
+    opacity: 1;
+}
+.sendInquiry-form-box__form{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.sendInquiry-form-box__form-input{
+    display: block;
+    height: 64px;
+    padding: 18px 32px;
+
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background-color: inherit;
+    color: inherit;
+}
+.sendInquiry-form-box__form-input:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.sendInquiry-form-box__button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    width: 432px;
+    height: 64px;
+    padding: 16px 150px;
+    margin-bottom: 28px;
+    border: none;
+
+    background-color: var(--button-primary-background-color);
+}
+.sendInquiry-form-box__link-box{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
