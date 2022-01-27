@@ -1,5 +1,7 @@
 @import 'reset-css';
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@400;500;600&display=swap');
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 
 @import './base.css';
 @import './variables/colors.css';
