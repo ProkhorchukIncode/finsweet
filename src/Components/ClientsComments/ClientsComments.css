@@ -1,0 +1,32 @@
+.comments-slider{
+    position: relative;
+}
+.arrows{
+    font-size: 28px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    z-index: 10;
+    border: none;
+    opacity: 0.7;
+    
+    color: var(--button-secondary-hover-background-color);
+    background-color: var(--primary-background-color);
+
+    transition: color 0.4s,
+        background-color 0.4s;
+}
+.arrows:hover, .arrows:focus{
+    color: var(--secondary-text-color);
+    background-color: var(--primary-link-color);   
+}
+.leftArrow{   
+    top: 200px;
+    left: 750px;
+    
+}
+.rightArrow{
+    top: 200px;
+    right: -10px;
+}
