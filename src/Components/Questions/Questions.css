@@ -16,6 +16,9 @@
 .questions-box-info__link{
     color: var(--primary-link-color);
 }
+.questions-box-accordeon{
+    width: 846px;
+}
 .questions-box-accordeon:not(:last-child){
     border-bottom: 2px solid #ECECF1;
 }

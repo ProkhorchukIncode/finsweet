@@ -65,17 +65,20 @@
     margin-bottom: 16px;
 }
 
-.sendInquiry-form-box__button{
+.sendInquiry-form-box .roundButton-button{
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    width: 432px;
-    height: 64px;
+    width: 100%;
     padding: 16px 150px;
     margin-bottom: 28px;
     border: none;
 
     background-color: var(--button-primary-background-color);
+}
+.sendInquiry-form-box .roundButton-button:hover,
+.sendInquiry-form-box .roundButton-button:focus{
+    background-color: var(--button-primary-hover-background-color);
 }
 .sendInquiry-form-box__link-box{
     display: flex;

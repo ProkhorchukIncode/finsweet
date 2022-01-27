@@ -9,7 +9,7 @@ const BlogCard = ({image, date, title, text, path}) => {
             <p className='blogCard-date'>{date}</p>
             <h6 className='blogCard-title'>{title}</h6>
             <p className='blogCard-text'>{text}</p>
-            <LinkWithArrow path={path} className='blogCard-link'>
+            <LinkWithArrow path={path} >
             Read More
             </LinkWithArrow>
         </div>

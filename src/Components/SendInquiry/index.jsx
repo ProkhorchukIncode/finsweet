@@ -24,9 +24,7 @@ const SendInquiry = () => {
                             <input type='email' placeholder="Email" className="sendInquiry-form-box__form-input"/>
                             <input type='url' placeholder="Paste your Figma design URL" className="sendInquiry-form-box__form-input"/>
                         </form>
-                        <RoundButton className='sendInquiry-form-box__button'>
-                        Send an Inquiry
-                        </RoundButton>
+                        <RoundButton text={'Send an Inquiry'}/>
                         <div className='sendInquiry-form-box__link-box'>
                             <LinkWithArrow path='/about-us' >
                             Get in touch with us

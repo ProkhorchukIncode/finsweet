@@ -10,6 +10,7 @@
     background-color: var(--primary-background-color);
 }
 .advantagesCard-image{
+    width: 32px;
     margin-bottom: 25px;
 }
 .advantagesCard-title{

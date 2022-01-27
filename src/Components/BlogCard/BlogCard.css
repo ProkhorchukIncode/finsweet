@@ -1,5 +1,5 @@
 .blogCard-box{
-    width: 405px;
+    max-width: 405px;
 }
 .blogCard-image{
     margin-bottom: 40px;
@@ -14,6 +14,6 @@
     font-weight: 400;
     margin-bottom: 32px;
 }
-.blogCard-link{
+.blogCard-box .link-with-arrow{
     color: var(--primary-text-color);
 }

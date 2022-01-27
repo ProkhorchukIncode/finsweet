@@ -1,9 +1,9 @@
 import './RoundButton.css'
 
-const RoundButton = ({children, type, className}) => {
+const RoundButton = ({text, type}) => {
     return (
         <div className='roundButton-box'>
-            <button type={type} className={className}>{children}</button>
+            <button type={type} className='roundButton-button'>{text}</button>
         </div>
     )
 }
