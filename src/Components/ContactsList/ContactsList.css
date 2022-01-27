@@ -5,4 +5,5 @@
 }
 .contactsList-list li:hover, .contactsList-list li:focus{
     opacity: 0.8;
+    transition: opacity 0.4s;
 }

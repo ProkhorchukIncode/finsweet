@@ -1,7 +1,5 @@
 import {Link, useLocation} from "react-router-dom";
 
-import RoundButton from "../RoundButton";
-
 import './NavigationBar.css'
 
 import ROUTES from "../../Routes";
@@ -22,11 +20,12 @@ const NavigationBar = ({withActive}) => {
     return(
         <nav className="navigation-container">
             {routes.map(({name,path}, i)=> {
-                if(i!== routes.length-1)
-                return(
-                <Link to={path} key={path} className={isActiveLink(path)}>
-                    {name}
-                </Link>)
+                if(i!== routes.length-1){
+                    return(
+                    <Link to={path} key={path} className={isActiveLink(path)}>
+                        {name}
+                    </Link>)
+                }
             })}
         </nav>
     )
