@@ -21,9 +21,9 @@ const Header = () => {
                     <div className="header-navigation-box">
                         <NavigationBar withActive={true}/>
                         <Link to={routes[routes.length-1].path}>
-                        <RoundButton className={'header-navigation-box__button'}>
-                            {routes[routes.length-1].name}
-                        </RoundButton>
+                        <RoundButton 
+                            text={routes[routes.length-1].name}
+                        />
                         </Link>
                     </div>
                 </div>

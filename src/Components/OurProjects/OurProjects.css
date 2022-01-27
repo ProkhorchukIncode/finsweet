@@ -81,6 +81,6 @@
 
     background-image: url('../../Images/OurProjects/Church.png');
 }
-.ourProjects-link{
+.ourProjects-flex .link-with-arrow{
     color: var(--button-primary-background-color);
 }

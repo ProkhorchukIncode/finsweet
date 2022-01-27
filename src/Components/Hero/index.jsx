@@ -18,9 +18,9 @@ const Hero = () => {
                         <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         <div className='hero-box__links-box'>
                             <Link to='/features'>
-                                <RoundButton className='hero-box__button'>View our work</RoundButton>
+                                <RoundButton text={'View our work'}/>
                             </Link>
-                            <LinkWithArrow path='/features' className='hero-box__link'>
+                            <LinkWithArrow path='/features'>
                                 View Pricing
                             </LinkWithArrow>
                         </div>

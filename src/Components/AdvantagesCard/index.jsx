@@ -1,4 +1,4 @@
-import './Advantages.css'
+import './AdvantagesCard.css'
 
 const AdvantagesCard = ({image, title, text}) => {
     return (<li>

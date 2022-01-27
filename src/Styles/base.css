@@ -6,11 +6,13 @@ a{
     color: var(--secondary-text-color);
 }
 a:hover, a:focus{
-    text-decoration:underline;
     opacity: 0.8;
 }
 img{
     display: block;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 h1{
     font-weight: 600;
