@@ -16,6 +16,11 @@
     width: 156px;
     margin-bottom: 22px;
 }
+.footer-logo-box__link:hover, 
+.footer-logo-box__link:focus{
+    opacity: 0.8;
+    transition: opacity 0.4s;
+}
 .footer-logo-box__text{
     display: block;
     width: 399px;

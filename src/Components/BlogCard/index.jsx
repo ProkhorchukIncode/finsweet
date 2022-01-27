@@ -2,7 +2,7 @@ import LinkWithArrow from '../LinkWithArrow'
 
 import './BlogCard.css'
 
-const BlogCard = ({image, date, title, text, path}) => {
+const BlogCard = ({image, date='19 Jan 2022', title, text='It is text', path='/'}) => {
     return (<li>
         <div className='blogCard-box'>
             <img src={image} alt={title} className='blogCard-image'/>
