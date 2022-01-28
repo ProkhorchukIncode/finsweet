@@ -1,0 +1,117 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.hero-section{
+    padding-top: 126px;
+    padding-bottom: 128px;
+    background-color: var(--header-and-footer-background-color);
+}
+.hero-flex{
+    display: flex;
+    justify-content: center;
+    @media screen and(min-width:$Large){
+        justify-content: start;
+    }
+}
+.hero-flex img{
+    @media screen and(min-width:$Small){
+        display: none;
+    }
+    @media screen and(min-width:$Large){
+        display: block;
+    }
+}
+.hero-box{
+    max-width: 582px;
+    text-align: center;
+    @media screen and(min-width:$Large){
+        text-align: start;
+        margin-right: 60px;
+    }
+}
+.hero-title{
+    margin-bottom: 24px;
+
+    color:var(--secondary-text-color);
+    @media screen and(min-width:$Small) {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 56px;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 56px;
+    }
+    @media screen and(min-width:$Large) {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-size: 54px;
+        line-height: 74px;
+    }
+}
+.hero-text{
+    @media screen and(min-width:$Small) {
+        display: inline-block;
+        max-width: 562px;
+        margin-bottom: 48px;
+
+        color: var(--secondary-text-color);
+    }
+}
+.hero-box__links-box{
+    display: flex;
+    justify-content: center;
+    @media screen and(min-width:$Large) {
+        justify-content: start;
+    }
+}
+.hero-box__links-box .roundButton-button{
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 230px;
+    padding: 16px 56px;
+    margin-right: 40px;
+    border: none;
+
+    background-color: var(--button-primary-background-color);
+
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 14px;
+        padding: 20px 10px;
+        margin-right: 20px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        padding: 16px ;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        font-weight: 600;
+        font-size: 18px;
+        max-width: 230px;
+        padding: 16px 56px;
+        margin-right: 40px;
+    }
+}
+.hero-box__links-box .roundButton-button:hover,
+.hero-box__links-box .roundButton-button:focus{
+    background: var(--button-primary-hover-background-color);
+}
+.hero-box__links-box .link-with-arrow{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}

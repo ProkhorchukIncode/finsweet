@@ -1,7 +1,7 @@
 import Container from "../Container"
 import NavigationBar from "../NavigationBar"
 
-import './Copyright.css'
+import './Copyright.scss'
 
 const Copyright = () => {
     return (

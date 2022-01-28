@@ -1,3 +1,5 @@
+@import '../../Styles/variables/breakpoints.scss';
+
 .comments-slider{
     position: relative;
 }
@@ -15,18 +17,28 @@
     background-color: var(--primary-background-color);
 
     transition: color 0.4s,
-        background-color 0.4s;
+    background-color 0.4s;
 }
 .arrows:hover, .arrows:focus{
     color: var(--secondary-text-color);
     background-color: var(--primary-link-color);   
 }
 .leftArrow{   
-    top: 200px;
-    left: 750px;
-    
+    @media screen and(min-width:$Small) {
+        bottom: -80px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        top: 200px;
+        left: 750px;  
+    }
 }
 .rightArrow{
-    top: 200px;
-    right: -10px;
+    @media screen and(min-width:$Small) {
+        bottom: -80px;
+        right: 0px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        top: 200px;
+        right: -10px; 
+    } 
 }

@@ -4,7 +4,7 @@ import Container from "../Container"
 import NavigationBar from "../NavigationBar"
 import RoundButton from "../RoundButton"
 
-import "./Header.css"
+import "./Header.scss"
 import img from '../../Images/Logo/Logo-header.svg'
 
 import ROUTES from "../../Routes"

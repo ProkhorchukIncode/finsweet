@@ -8,7 +8,7 @@ import SliderCard from '../SliderCard'
 
 import { fetchListUsers } from '../../Redux/comments/commentsReducer'
 
-import './ClientsComments.css'
+import './ClientsComments.scss'
 
 const Section = styled.section`
     max-height:510px;
@@ -16,17 +16,48 @@ const Section = styled.section`
     background-color: var(--secondary-background-color);
 `
 const FlexContainer = styled.div`
-    display: flex;
-    justify-content: ${props => props.between ? 'space-between' : ''};
+
+    @media(min-width:1400px) {
+        display: flex;
+        justify-content: ${props => props.between ? 'space-between' : ''};
+    }
 `
 const BoxInfo = styled.div`
     max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 24px;
+
+    @media(min-width:1400px) {
+        margin-bottom: 0px;
+        text-align: start;
+        margin-left: 0;
+        margin-right: 0;
+    }
 `
 const SliderBox = styled.div`
+    margin-left: auto;
+    margin-right: auto;
     max-width: 843px;
 `
 const Title = styled.h3`
     margin-bottom: 16px;
+    @media(min-width:576px) {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 56px;
+    }
+    @media(min-width:768px) {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 56px;
+    }
+    @media(min-width:992px) {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
 `
 
 const PrevArrow = ({ onClick}) => {
@@ -75,7 +106,7 @@ const ClientsComments = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
                     </BoxInfo>
                     <SliderBox>
-                        {comments.length ?<div lassName='comments-slider'>
+                        {comments.length ?<div className='comments-slider'>
                             <Slider {...settingsSlider} >
                                 <SliderCard 
                                     key={comments[0].id} 

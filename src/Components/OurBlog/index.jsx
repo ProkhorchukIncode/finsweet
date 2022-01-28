@@ -6,7 +6,7 @@ import BlogCard from "../BlogCard"
 
 import { fetchBlogs } from "../../Redux/blogs/blogsReducer";
 
-import './OurBlog.css'
+import './OurBlog.scss'
 
 const OurBlog = () => {
     const dispatch = useDispatch()

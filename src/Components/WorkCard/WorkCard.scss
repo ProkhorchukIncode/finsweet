@@ -1,0 +1,30 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.workCard-box{
+    max-width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(min-width:$Large) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.workCard-image{
+    display: none;
+    @media screen and(min-width:$Large) {
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 50px;
+        margin-bottom: 16px;
+    }
+}
+.workCard-title{
+    margin-bottom: 8px;
+}
+.workCard-text{
+    display: inline-block;
+    width: 303px;
+    margin-bottom: 48px;
+}

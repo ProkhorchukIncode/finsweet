@@ -1,6 +1,6 @@
 .advantagesCard-box{
     box-sizing: border-box;
-    width: 405px;
+    max-width: 405px;
     height: 316px;
     padding-top: 53px;
     padding-left: 48px;

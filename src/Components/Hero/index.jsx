@@ -6,7 +6,7 @@ import LinkWithArrow from '../LinkWithArrow'
 
 import img from '../../Images/Hero/Illustration.svg'
 
-import './Hero.css'
+import './Hero.scss'
 
 const Hero = () => {
     return (
