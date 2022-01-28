@@ -1,6 +1,6 @@
 import {Link, useLocation} from "react-router-dom";
 
-import './NavigationBar.css'
+import './NavigationBar.scss'
 
 import ROUTES from "../../Routes";
 const routes = ROUTES.PUBLIC_ROUTES;

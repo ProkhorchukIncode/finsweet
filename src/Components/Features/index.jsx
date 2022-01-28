@@ -3,7 +3,7 @@ import AdvantagesCard from "../AdvantagesCard";
 
 import advantages from './advantages'
 
-import './Features.css'
+import './Features.scss'
 
 const Features = () => {
     return(

@@ -1,3 +1,5 @@
+@import '../../Styles/variables/breakpoints.scss';
+
 .ourProjects-container{
     padding: 128px 0;
 
@@ -5,22 +7,47 @@
 }
 .ourProjects-info{
     margin-bottom: 64px;
+    text-align: center;
+    @media screen and(min-width:$Large) {
+        text-align: start;
+    }
 }
 .ourProjects-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @media screen and(min-width:$Large) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .ourProjects__link{
     color: var(--primary-text-color);
 }
 .ourProjects-workhub__box{
     position: relative;
-    margin-right: 32px;
+    height: 284px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    @media screen and(min-width:$Large) {
+        display: block;
+        margin-bottom: 0;
+        margin-right: 32px;
+        height: 100%;
+    }
 }
 .ourProjects-workhub__image-box{
-    width: 843px;
-    height: 600px;
+    @media screen and(min-width:$Small) {
+        width: 405px;
+        height: 284px;
+        background-size: contain;
+        margin-bottom: 25px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        width: 843px;
+        height: 600px;
+        margin-bottom: 0;
+    }
+
     background-image: url('../../Images/OurProjects/WorkHub.png');
 }
 .ourProjects-workhub__info-box{
@@ -29,7 +56,7 @@
     flex-direction: column;
     position: absolute;
     top: 0;
-    width: 396px;
+    width: 405px;
     height: 100%;
     padding-left: 48px;
     padding-right: 35px;
@@ -51,11 +78,21 @@
     color: var(--secondary-text-color);
     opacity: 0.8;
 }
+.ourProjects-other-projects__box{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 405px;
+    @media screen and(min-width:$Large) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
 .ourProjects-unisaas__box{
     position: relative;
 }
 .ourProjects-unisaas__image-box{
-    width: 414px;
+    width: 405px;
     height: 284px;
     margin-bottom: 32px;
 
@@ -67,7 +104,7 @@
     flex-direction: column;
     position: absolute;
     top: 0;
-    width: 414px;
+    width: 405px;
     height: 100%;
     padding-left: 56px;
     padding-right: 36px;

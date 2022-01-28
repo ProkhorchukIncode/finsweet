@@ -1,3 +1,5 @@
+@import '../../Styles/variables/breakpoints.scss';
+
 .sendInquiry-section{
     margin-bottom: 128px;
 
@@ -6,13 +8,25 @@
 }
 .sendInquiry-flex{
     display: flex;
+    justify-content: center;
 }
 .sendInquiry-title-box{
+    @media screen and(min-width:$Small) {
+        display: none;
+    }
+    @media screen and(min-width:$Extra-large) {
+        display: block;
+    }
     position: relative;
 }
 .sendInquiry-title-box__image-box{
-    width: 656px;
-    height: 691px;
+    @media screen and(min-width:$Extra-large) {
+        width: 500px;
+        height: 691px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        width: 656px;
+    }
     background-image: url('../../Images/woman-writing-on-paper.png');
 }
 .sendInquiry-title-box__info-box{
@@ -34,8 +48,19 @@
     opacity: 1;
 }
 .sendInquiry-form-box{
-    padding: 96px 96px 48px 96px;
     background-color: var(--header-and-footer-background-color);
+    
+    @media screen and(min-width:$Small) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        display: block;
+        padding: 96px 96px 48px 96px;
+    }
+        
 }
 .sendInquiry-form-box__title{
     margin-bottom: 16px;
@@ -46,6 +71,7 @@
 }
 .sendInquiry-form-box__form{
     padding: 40px 0px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -66,11 +92,16 @@
 }
 
 .sendInquiry-form-box .roundButton-button{
+    @media screen and(min-width:$Small) {
+        padding: 16px 20px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        padding: 16px 150px;
+    }
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
     width: 100%;
-    padding: 16px 150px;
     margin-bottom: 28px;
     border: none;
 

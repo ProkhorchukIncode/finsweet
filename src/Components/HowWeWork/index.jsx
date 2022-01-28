@@ -4,7 +4,7 @@ import LinkWithArrow from '../LinkWithArrow'
 
 import works from './works'
 
-import './HowWeWork.css'
+import './HowWeWork.scss'
 
 const HowWeWork = () => {
     return (
@@ -14,7 +14,7 @@ const HowWeWork = () => {
                     <div className='howWeWork-info__container'>
                         <h2 className='howWeWork-info__title'>How we work</h2>
                         <p className='howWeWork-info__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        <LinkWithArrow path={'/contact-us'} className='howWeWork-info__link'>
+                        <LinkWithArrow path={'/contact-us'} >
                         Get in touch with us
                         </LinkWithArrow>
                     </div>

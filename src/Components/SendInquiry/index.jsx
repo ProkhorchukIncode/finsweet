@@ -2,7 +2,7 @@ import Container from "../Container"
 import RoundButton from "../RoundButton"
 import LinkWithArrow from "../LinkWithArrow"
 
-import './SendInquiry.css'
+import './SendInquiry.scss'
 
 const SendInquiry = () => {
     return (

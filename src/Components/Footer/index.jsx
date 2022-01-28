@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Container from "../Container"
 import ContactsList from "../ContactsList"
 
-import "./Footer.css"
+import "./Footer.scss"
 
 import logo from '../../Images/Logo-footer.svg'
 
@@ -37,7 +37,9 @@ const Footer = () => {
                     <div className="footer-contacts__box">
                         <h2 className="footer-contacts__title">Lets Talk!</h2>
                         <p className="footer-contacts__text">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
-                        <ContactsList/>
+                        <div className="footer-contacts__links-box">
+                            <ContactsList/>
+                        </div>                        
                     </div>
                 </div>
             </Container>

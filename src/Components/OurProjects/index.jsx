@@ -1,19 +1,19 @@
 import Container from "../Container";
 import LinkWithArrow from "../LinkWithArrow";
 
-import './OurProjects.css'
+import './OurProjects.scss'
 
 const OurProjects = () => {
     return(
         <section className="ourProjects-container">
             <Container>
-                <div className="ourProjects-flex ourProjects-info">
+                <div className="ourProjects-info ourProjects-flex">
                     <h2>View our projects</h2>
                     <LinkWithArrow path='/features' className='ourProjects__link'>
                     View More
                     </LinkWithArrow>
                 </div>
-                <div className='ourProjects-flex'>
+                <div className='ourProjects-flex ourProjects-other-projects__box'>
                     <div className="ourProjects-workhub__box">
                         <div className="ourProjects-workhub__image-box"></div>
                         <div className="ourProjects-workhub__info-box">

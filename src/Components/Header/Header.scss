@@ -1,0 +1,73 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.header-section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    background-color: var(--header-and-footer-background-color);
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container img{
+    @media screen and(min-width:$Small) {
+        max-width: 70px;
+    }
+    @media screen and(min-width:$Medium) {
+        max-width: 75px;
+    }
+    @media screen and(min-width:$Large) {
+        max-width: 80px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        max-width: 100px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        max-width: 120px;
+    }
+}
+.header-navigation-box{
+    display: flex;
+}
+.header-navigation-box .roundButton-button{
+    @media screen and(min-width:$Small) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        padding: 10px 10px;
+    
+        border: 2px solid rgba(244, 246, 252, 0.2);
+        color: var(--secondary-text-color);
+        background-color: inherit;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 48px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 185px;
+        height: 60px;
+        margin-left: 48px;
+    }
+}
+.header-navigation-box .roundButton-button:focus,
+.header-navigation-box .roundButton-button:hover{
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+}

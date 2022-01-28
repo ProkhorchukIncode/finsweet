@@ -1,0 +1,36 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.questions-section{
+    padding: 128px 0;
+
+    background-color: var(--primary-background-color);
+}
+.questions-flex{
+    @media screen and(min-width:$Extra-extra-large) {
+        display: flex;
+    }   
+}
+.questions-box-info{
+    width: 328px;
+    margin-right: 109px;
+}
+.questions-box-info__title{
+    margin-bottom: 16px;
+}
+.questions-box-info__link{
+    color: var(--primary-link-color);
+}
+.questions-box-accordeon{
+    @media screen and(min-width:$Extra-extra-large) {
+        max-width: 846px;
+    } 
+}
+.questions-box-accordeon .accordion-box:not(:last-child){
+    border-bottom: 2px solid #ECECF1;
+}
+.questions-box-accordeon .accordion-number{
+    display: none;
+    @media screen and(min-width:$Extra-large) {
+        display: block;
+    } 
+}

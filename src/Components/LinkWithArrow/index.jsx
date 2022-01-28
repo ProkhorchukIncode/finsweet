@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import './LinkWithArrow.css'
+import './LinkWithArrow.scss'
 
 const LinkWithArrow = ({path, children}) => {
     return(

@@ -1,0 +1,29 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.ourBlog-section{
+    margin-bottom: 128px;
+
+    background-color: var(--primary-background-color);
+}
+.ourBlog-title{
+    margin-bottom: 64px;
+    text-align: center;
+    @media screen and(min-width:$Extra-extra-large) {
+        text-align: start;
+    }
+}
+.ourBlog-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and(min-width:$Extra-extra-large) {
+        flex-direction: row;
+    } 
+}
+.ourBlog-flex li{
+    margin-bottom: 20px;
+    @media screen and(min-width:$Extra-extra-large) {
+        width: calc((100% - 20px)/3);
+        margin-bottom: 0;
+    } 
+}

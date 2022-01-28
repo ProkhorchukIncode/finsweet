@@ -1,0 +1,63 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.navigation-container{
+    display: flex;
+    align-items: center;
+}
+.navigation-container :not(:last-child){
+    @media screen and(min-width:$Small) {
+        margin-right: 12px;
+    }
+    @media screen and(min-width:$Extra-extra-large) {
+        margin-right: 32px;
+    }
+}
+.link{
+    display: inline-block;
+    color: var(--secondary-link-color);
+
+    @media screen and(min-width:$Small) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+.activeLink{
+    color: var(--secondary-text-color);
+
+    @media screen and(min-width:$Small) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,59 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.copyright-section{
+    padding: 32px 0;
+}
+.copyright-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--primary-text-color);
+}
+.copyright-title{
+    opacity: 1;
+    @media screen and(min-width:$Small) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+.copyright-flex a{
+    @media screen and(min-width:$Small) {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    @media screen and(min-width:$Medium) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Large) {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    @media screen and(min-width:$Extra-large) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    color: var(--primary-text-color);
+}

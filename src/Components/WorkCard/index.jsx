@@ -1,4 +1,4 @@
-import './WorkCard.css'
+import './WorkCard.scss'
 
 const WorkCard = ({image, title, text}) => {
     return (<li>

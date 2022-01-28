@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Container from '../Container'
 import Accordion from '../Accordion'
 
-import './Questions.css'
+import './Questions.scss'
 
 const Questions = () => {
     return (

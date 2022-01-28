@@ -3,5 +3,6 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
-@import './base.css';
+@import './base.scss';
 @import './variables/colors.css';
+@import './variables/breakpoints.scss';
