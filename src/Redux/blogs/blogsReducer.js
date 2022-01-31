@@ -18,7 +18,7 @@ const blogsSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(fetchBlogs.fulfilled, (state, action) => {
-      state.entities = [...state.entities, ...action.payload].filter(el => el.id )
+      state.entities = [...state.entities, ...action.payload].filter(el => el.id)
     })
     builder.addCase(fetchBlogs.rejected, (state, action) => {
       state.error = action.payload

@@ -1,0 +1,17 @@
+@import '../../Styles/variables/breakpoints.scss';
+
+.blogCard-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding-bottom: 20px;
+    @media screen and(min-width:$Extra-large) {
+        max-width: 405px;
+        text-align: start;
+        align-items: start;
+    }
+}
+.blogCard-box .link-with-arrow{
+    color: var(--primary-text-color);
+}

@@ -15,9 +15,11 @@
 .ourBlog-flex{
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     @media screen and(min-width:$Extra-extra-large) {
         flex-direction: row;
+        
     } 
 }
 .ourBlog-flex li{
