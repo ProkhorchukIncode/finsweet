@@ -5,7 +5,7 @@ import NavigationBar from "../NavigationBar"
 import RoundButton from "../RoundButton"
 
 import "./Header.scss"
-import img from '../../Images/Logo/Logo-header.svg'
+import img from '../../Images/Logo-header.svg'
 
 import ROUTES from "../../Routes"
 const routes = ROUTES.PUBLIC_ROUTES;

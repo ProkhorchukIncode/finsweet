@@ -4,7 +4,7 @@ import Container from '../Container'
 import RoundButton from '../RoundButton'
 import LinkWithArrow from '../LinkWithArrow'
 
-import img from '../../Images/Hero/Illustration.svg'
+import img from '../../Images/Illustration.svg'
 
 import './Hero.scss'
 
