@@ -1,9 +1,9 @@
-import img1 from '../../Images/Features/People.svg'
-import img2 from '../../Images/Features/Ok.svg'
-import img3 from '../../Images/Features/Pencil.svg'
-import img4 from '../../Images/Features/Communication.svg'
-import img5 from '../../Images/Features/Clock.svg'
-import img6 from '../../Images/Features/Document.svg'
+import img1 from '../../Images/People.svg'
+import img2 from '../../Images/Ok.svg'
+import img3 from '../../Images/Pencil.svg'
+import img4 from '../../Images/Communication.svg'
+import img5 from '../../Images/Clock.svg'
+import img6 from '../../Images/Document.svg'
 
 const advanteges = [
     {
