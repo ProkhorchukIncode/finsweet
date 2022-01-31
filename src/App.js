@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 
 import RoutesComponent from "./Components/RoutesComponent";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Copyright from "./Components/Copyright";
 import Modal from "./Components/Modal";
 
 import "./Styles/main.css"
@@ -50,6 +52,8 @@ const App = () => {
           <Route path = "*" element={<Navigate replace to={routes[0].path}/>}/>
         </Routes>
       </RoutesComponent>
+      <Footer/>
+      <Copyright/>
       <Modal modalOpen={modalOpen} closeModal={closeModal}/>
     </>
   );

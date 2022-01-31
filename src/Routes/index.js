@@ -38,14 +38,6 @@ const ROUTES = {
             path: '/blog',
             component: <Blog/>,
         },
-
-        // important last
-        {
-            name: 'Contact us',
-            path: '/contact-us',
-            component: <ContactUs/>,
-        },
-        //
     ],
 };
 
