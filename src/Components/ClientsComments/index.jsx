@@ -5,6 +5,7 @@ import Slider from 'react-slick'
 
 import Container from '../Container'
 import SliderCard from '../SliderCard'
+import Arrow from '../Arrow'
 
 import { fetchListUsers } from '../../Redux/comments/commentsReducer'
 
@@ -66,7 +67,7 @@ const PrevArrow = ({ onClick}) => {
             className='arrows leftArrow'
             onClick={onClick}
         >
-            &#5176;
+            <Arrow/>
         </button>
     )
 }
@@ -76,7 +77,7 @@ const NextArrow = ({ onClick}) => {
             className='arrows rightArrow'
             onClick={onClick}
         >
-            &#5171;
+            <Arrow/>
         </button>
     )
 }

@@ -26,6 +26,8 @@ const OurBlog = ({scroll=false, numberBlogs=3, titleCenter=false}) => {
     const [hasMore, setHasMore] = useState(true)
     const dispatch = useDispatch()
     const blogsList = useSelector((state) => state.blogs.entities)
+
+    let threeblogs=blogsList.slice(0,3)
     
     const fetchMoreData = () => {
         if(blogsList.length >= 50){
@@ -72,7 +74,7 @@ const OurBlog = ({scroll=false, numberBlogs=3, titleCenter=false}) => {
                     </>
                     :
                     <>
-                        {blogsList?.map(({url, title, id})=> {
+                        {threeblogs?.map(({url, title, id})=> {
                             return(
                                 <BlogCard 
                                     image={url} 

@@ -23,6 +23,11 @@
     color: var(--secondary-text-color);
     background-color: var(--primary-link-color);   
 }
+.arrows:hover path, .arrows:focus path{
+    fill: var(--secondary-text-color);
+    opacity: 1; 
+}
+
 .leftArrow{   
     @media screen and(min-width:$Small) {
         bottom: -80px;
@@ -33,6 +38,7 @@
     }
 }
 .rightArrow{
+    transform: rotate(180deg);
     @media screen and(min-width:$Small) {
         bottom: -80px;
         right: 0px;

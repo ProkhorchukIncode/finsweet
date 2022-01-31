@@ -2,13 +2,17 @@ import styled from 'styled-components'
 
 import LinkWithArrow from '../LinkWithArrow'
 
-import './BlogCard.css'
+import './BlogCard.scss'
 
 const Img = styled.img`
     margin-bottom: 40px;
 `
 const Title = styled.h6`
     margin-bottom: 16px;
+    text-align: center;
+    @media(min-width:992px) {
+        text-align: start;
+    }
 `
 const Text = styled.p`
     font-weight: ${props => props.date ? '' : '400'};

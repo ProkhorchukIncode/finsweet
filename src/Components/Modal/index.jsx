@@ -33,7 +33,7 @@ const Modal = ({modalOpen, closeModal}) => {
 
     return (
         <section 
-            className={`${modalOpen ? 'modal-section' : 'visually-hidden'}`} 
+            className={`modal-section ${modalOpen ? 'modal-section-open' : 'visually-hidden'}`} 
             onClick={closeModal} 
         >
             <div className='modal-box'>

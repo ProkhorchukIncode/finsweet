@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 
 import RoutesComponent from "./Components/RoutesComponent";
 import Header from "./Components/Header";
+import ContactUs from "./Components/ContactUs";
 import Footer from "./Components/Footer";
-import Copyright from "./Components/Copyright";
 import Modal from "./Components/Modal";
 
 import "./Styles/main.css"
@@ -22,7 +22,7 @@ const App = () => {
   }
 
   const closeModal=(event)=> {
-    if(event.target.className==='modal-section' || 
+    if(event.target.className==='modal-section modal-section-open' || 
     event.target.className==='modal-image-close' ||
     event.target.className==='modal-button-close')
     setModalOpen(false)
@@ -52,8 +52,8 @@ const App = () => {
           <Route path = "*" element={<Navigate replace to={routes[0].path}/>}/>
         </Routes>
       </RoutesComponent>
+      <ContactUs/>
       <Footer/>
-      <Copyright/>
       <Modal modalOpen={modalOpen} closeModal={closeModal}/>
     </>
   );
