@@ -6,8 +6,6 @@ import ClientsComments from "../../Components/ClientsComments"
 import Questions from "../../Components/Questions"
 import SendInquiry from "../../Components/SendInquiry"
 import OurBlog from "../../Components/OurBlog"
-import Footer from "../../Components/Footer"
-import Copyright from "../../Components/Copyright"
 
 const HomePage = () => {
 
@@ -20,9 +18,7 @@ const HomePage = () => {
             <ClientsComments/>
             <Questions/>
             <SendInquiry/>
-            <OurBlog/>
-            <Footer/>
-            <Copyright/>
+            <OurBlog numberBlogs={3} scroll={false}/>
         </>
     )
 }
