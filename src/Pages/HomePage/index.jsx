@@ -10,6 +10,7 @@ import Footer from "../../Components/Footer"
 import Copyright from "../../Components/Copyright"
 
 const HomePage = () => {
+
     return (
         <>
             <Hero/>
