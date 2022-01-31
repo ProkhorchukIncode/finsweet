@@ -32,10 +32,11 @@ const Modal = ({modalOpen, closeModal}) => {
     }
 
     return (
-        <section className={`${modalOpen ? 'modal-section' : 'visually-hidden'}`} 
-        onClick={closeModal} 
+        <section 
+            className={`${modalOpen ? 'modal-section' : 'visually-hidden'}`} 
+            onClick={closeModal} 
         >
-            <div className='modal-box' >
+            <div className='modal-box'>
                 <div className='modal-border'>  
                     <h2 className="modal-title">Contact us</h2>
                     <form className="modal-form">

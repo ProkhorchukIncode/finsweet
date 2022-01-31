@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import RoutesComponent from "./Components/RoutesComponent";
 import Header from "./Components/Header";
@@ -25,10 +25,19 @@ const App = () => {
     event.target.className==='modal-button-close')
     setModalOpen(false)
   }
-  
-  const onKeyDown = (event) => {
-    console.log(event.key==='Escape');
-  }
+
+  useEffect(() => {
+    const handleEsc = (event) => {
+       if (event.keyCode === 27) {
+        setModalOpen(false)
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, []);
 
   return (
     < >
@@ -41,7 +50,7 @@ const App = () => {
           <Route path = "*" element={<Navigate replace to={routes[0].path}/>}/>
         </Routes>
       </RoutesComponent>
-      <Modal modalOpen={modalOpen} closeModal={closeModal} onKeyDown={onKeyDown}/>
+      <Modal modalOpen={modalOpen} closeModal={closeModal}/>
     </>
   );
 }
