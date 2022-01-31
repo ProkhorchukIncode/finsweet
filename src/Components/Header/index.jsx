@@ -10,7 +10,7 @@ import img from '../../Images/Logo/Logo-header.svg'
 import ROUTES from "../../Routes"
 const routes = ROUTES.PUBLIC_ROUTES;
 
-const Header = () => {
+const Header = ({onClick}) => {
     return(
         <header className="header-section">
             <Container>
@@ -20,11 +20,10 @@ const Header = () => {
                     </Link>
                     <div className="header-navigation-box">
                         <NavigationBar withActive={true}/>
-                        <Link to={routes[routes.length-1].path}>
                         <RoundButton 
-                            text={routes[routes.length-1].name}
+                            text='Contact us'
+                            onClick={onClick}
                         />
-                        </Link>
                     </div>
                 </div>
             </Container>
