@@ -1,0 +1,13 @@
+.ourMission-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+
+    &:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
