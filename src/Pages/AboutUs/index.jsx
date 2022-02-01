@@ -1,8 +1,12 @@
 import HeroAboutUs from "../../Components/HeroAboutUs"
+import WhoWeAre from "../../Components/WhoWeAre"
 
 const AboutUs = () => {
     return (
-        <HeroAboutUs/>
+        <>
+            <HeroAboutUs/>
+            <WhoWeAre/>
+        </>
     )
 }
 
