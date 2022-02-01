@@ -1,0 +1,15 @@
+.ourProcess-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    @media(min-width:992px) {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+.ourProcess-flex li{
+    @media(min-width:768px) {
+        justify-content: space-between;
+    }
+}
