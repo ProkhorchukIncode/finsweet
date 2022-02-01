@@ -1,6 +1,8 @@
+import HeroAboutUs from "../../Components/HeroAboutUs"
+
 const AboutUs = () => {
     return (
-        <p>About us</p>
+        <HeroAboutUs/>
     )
 }
 
